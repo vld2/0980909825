@@ -1,3 +1,63 @@
 body {
-    background: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    background: green;
+    flex-wrap: wrap;
+}
+
+
+/*commentariy 4to xochew
+*/
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul li a {
+    padding: 10px 15px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    background: rgb(185, 49, 49);
+}
+
+#logo {
+    height: 65px;
+    width: 100px;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 620px) {
+    header ul {
+        justify-content: center;
+    }
+    #logo {
+        display: none;
+    }
 }
