@@ -21,7 +21,10 @@ header {
     flex-wrap: wrap;
 }
 
-
+.center {
+    max-width: 1000px;
+    margin: auto;
+}
 /*commentariy 4to xochew
 */
 
@@ -53,6 +56,27 @@ header ul li a:hover {
     align-items: center;
 }
 
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar {
+    width: 30%
+}
+
+
+#content {
+width: 70%
+}
+.border {
+    min-height: 600px;
+    box-shadow: 0 0 4px 2px #00000061;
+    margin: 15px;
+    padding: 15px;
+}
+
+
 @media(max-width: 620px) {
     header ul {
         justify-content: center;
@@ -61,3 +85,5 @@ header ul li a:hover {
         display: none;
     }
 }
+
+
