@@ -20,13 +20,12 @@ header {
     background: green;
     flex-wrap: wrap;
 }
-
+/* параметры верхушки сайта*/
 .center {
     max-width: 1000px;
     margin: auto;
 }
-/*commentariy 4to xochew
-*/
+/* параметры блока центр*/
 
 header ul {
     display: flex;
@@ -55,12 +54,12 @@ header ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-
+/* параметры лого */
 #container {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* параметры контейнер */
 #sidebar {
     width: 30%
 }
@@ -69,13 +68,14 @@ header ul li a:hover {
 #content {
 width: 70%
 }
+/* параметры размер контейнер */
 .border {
     min-height: 600px;
     box-shadow: 0 0 4px 2px #00000061;
     margin: 15px;
     padding: 15px;
 }
-
+/* параметры вкладки бордер */
 
 @media(max-width: 620px) {
     header ul {
@@ -85,5 +85,5 @@ width: 70%
         display: none;
     }
 }
-
+/* общий параметр для головы и лого */
 
